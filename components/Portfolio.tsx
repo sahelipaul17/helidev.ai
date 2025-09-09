@@ -59,7 +59,7 @@ export default function Portfolio() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Our <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Portfolio</span>
+            Our <span className="bg-gradient-to-r text-white bg-clip-text text-transparent">Portfolio</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Explore our successful AI implementations across various industries and use cases
@@ -89,7 +89,7 @@ export default function Portfolio() {
                   {project.tags.map((tag, idx) => (
                     <span 
                       key={idx}
-                      className="px-3 py-1 bg-blue-500/20 text-blue-300 text-sm rounded-full border border-blue-500/30"
+                      className="px-3 py-1 bg-blue-500/20 text-white text-sm rounded-full border border-blue-500/30"
                     >
                       {tag}
                     </span>
@@ -99,7 +99,7 @@ export default function Portfolio() {
                 <div className="flex space-x-4">
                   <a 
                     href={project.liveUrl}
-                    className="flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors"
+                    className="flex items-center space-x-2 text-white-400 hover:text-blue-300 transition-colors"
                   >
                     <ExternalLink className="w-4 h-4" />
                     <span>Live Demo</span>

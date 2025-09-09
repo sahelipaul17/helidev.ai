@@ -70,7 +70,7 @@ export default function Services() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Our AI <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Services</span>
+            Our AI <span className="bg-gradient-to-r text-white bg-clip-text text-transparent">Services</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Comprehensive AI solutions designed to transform your business operations and drive innovation
@@ -83,7 +83,7 @@ export default function Services() {
               key={index}
               className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-all duration-300 group hover:scale-105"
             >
-              <div className="w-14 h-14 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <div className="w-14 h-14 bg-gradient-to-r from-#090B20-500 to-orange-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <service.icon className="w-7 h-7 text-white" />
               </div>
 
@@ -93,7 +93,7 @@ export default function Services() {
               <ul className="space-y-3 mb-8">
                 {service.features.map((feature, idx) => (
                   <li key={idx} className="text-gray-400 flex items-center">
-                    <div className="w-2 h-2 bg-blue-400 rounded-full mr-3"></div>
+                    <div className="w-2 h-2 bg-white-400 rounded-full mr-3"></div>
                     {feature}
                   </li>
                 ))}
@@ -103,7 +103,7 @@ export default function Services() {
                 <span className="text-2xl font-bold text-white">{service.price}</span>
                 <button 
                   onClick={() => handlePurchase(service)}
-                  className="px-6 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-all"
+                  className="px-6 py-2 bg-gradient-to-r from-#090B20-600 to-orange-600 text-white rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-all"
                 >
                   Purchase
                 </button>

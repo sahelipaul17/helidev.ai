@@ -76,7 +76,7 @@ export default function AuthModal({ isOpen, onClose, onAuthSuccess }) {
         </div>
 
         {error && (
-          <div className="bg-red-500/20 border border-red-500/30 text-red-300 p-3 rounded-lg mb-4">
+          <div className="bg-orange-500/20 border border-orange-500/30 text-red-300 p-3 rounded-lg mb-4">
             {error}
           </div>
         )}
@@ -135,7 +135,7 @@ export default function AuthModal({ isOpen, onClose, onAuthSuccess }) {
           <button
             type="submit"
             disabled={loading}
-            className="w-full px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all disabled:opacity-50"
+            className="w-full px-6 py-3 bg-gradient-to-r from-#090B20-600 to-orange-600 text-white rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all disabled:opacity-50"
           >
             {loading ? 'Please wait...' : (isLogin ? 'Sign In' : 'Create Account')}
           </button>

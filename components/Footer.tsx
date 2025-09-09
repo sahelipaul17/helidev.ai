@@ -10,12 +10,12 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+              <div className="w-10 h-10 bg-gradient-to-r from-#090B20-500 to-orange-600 rounded-lg flex items-center justify-center">
                 <Bot className="w-6 h-6 text-white" />
               </div>
               <div>
                 <h3 className="text-xl font-bold text-white">Helidev.ai</h3>
-                <p className="text-xs text-blue-300">AI Solutions</p>
+                <p className="text-xs text-white-300">AI Solutions</p>
               </div>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
@@ -41,11 +41,11 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-6">Services</h4>
             <ul className="space-y-3 text-gray-400">
-              <li><a href="#" className="hover:text-blue-300 transition-colors">Custom GPT Development</a></li>
-              <li><a href="#" className="hover:text-blue-300 transition-colors">AI Chatbot Solutions</a></li>
-              <li><a href="#" className="hover:text-blue-300 transition-colors">AI Automation</a></li>
-              <li><a href="#" className="hover:text-blue-300 transition-colors">AI Education</a></li>
-              <li><a href="#" className="hover:text-blue-300 transition-colors">Consulting</a></li>
+              <li><a href="#" className="hover:text-#090B20-300 transition-colors">Custom GPT Development</a></li>
+              <li><a href="#" className="hover:text-#090B20-300 transition-colors">AI Chatbot Solutions</a></li>
+              <li><a href="#" className="hover:text-#090B20-300 transition-colors">AI Automation</a></li>
+              <li><a href="#" className="hover:text-#090B20-300 transition-colors">AI Education</a></li>
+              <li><a href="#" className="hover:text-#090B20-300 transition-colors">Consulting</a></li>
             </ul>
           </div>
 
@@ -53,11 +53,11 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-6">Resources</h4>
             <ul className="space-y-3 text-gray-400">
-              <li><a href="#" className="hover:text-blue-300 transition-colors">Documentation</a></li>
-              <li><a href="#" className="hover:text-blue-300 transition-colors">Tutorials</a></li>
-              <li><a href="#" className="hover:text-blue-300 transition-colors">Blog</a></li>
-              <li><a href="#" className="hover:text-blue-300 transition-colors">Case Studies</a></li>
-              <li><a href="#" className="hover:text-blue-300 transition-colors">Support</a></li>
+              <li><a href="#" className="hover:text-#090B20-300 transition-colors">Documentation</a></li>
+              <li><a href="#" className="hover:text-#090B20-300 transition-colors">Tutorials</a></li>
+              <li><a href="#" className="hover:text-#090B20-300 transition-colors">Blog</a></li>
+              <li><a href="#" className="hover:text-#090B20-300 transition-colors">Case Studies</a></li>
+              <li><a href="#" className="hover:text-#090B20-300 transition-colors">Support</a></li>
             </ul>
           </div>
 
@@ -65,11 +65,11 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-6">Company</h4>
             <ul className="space-y-3 text-gray-400">
-              <li><a href="#" className="hover:text-blue-300 transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-blue-300 transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-blue-300 transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-blue-300 transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="hover:text-blue-300 transition-colors">Contact</a></li>
+              <li><a href="#" className="hover:text-#090B20-300 transition-colors">About Us</a></li>
+              <li><a href="#" className="hover:text-#090B20-300 transition-colors">Careers</a></li>
+              <li><a href="#" className="hover:text-#090B20-300 transition-colors">Privacy Policy</a></li>
+              <li><a href="#" className="hover:text-#090B20-300 transition-colors">Terms of Service</a></li>
+              <li><a href="#" className="hover:text-#090B20-300 transition-colors">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -80,9 +80,9 @@ export default function Footer() {
               © 2024 Helidev.ai. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-blue-300 transition-colors text-sm">Privacy</a>
-              <a href="#" className="text-gray-400 hover:text-blue-300 transition-colors text-sm">Terms</a>
-              <a href="#" className="text-gray-400 hover:text-blue-300 transition-colors text-sm">Cookies</a>
+              <a href="#" className="text-gray-400 hover:text-#090B20-300 transition-colors text-sm">Privacy</a>
+              <a href="#" className="text-gray-400 hover:text-#090B20-300 transition-colors text-sm">Terms</a>
+              <a href="#" className="text-gray-400 hover:text-#090B20-300 transition-colors text-sm">Cookies</a>
             </div>
           </div>
         </div>

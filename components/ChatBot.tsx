@@ -77,7 +77,7 @@ export default function ChatBot() {
       {/* Chat Button */}
       <button
         onClick={() => setIsOpen(true)}
-        className={`fixed bottom-6 right-6 w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full shadow-lg hover:shadow-xl transition-all transform hover:scale-110 flex items-center justify-center z-50 ${
+        className={`fixed bottom-6 right-6 w-16 h-16 bg-gradient-to-r from-#090B20-600 to-orange-600 rounded-full shadow-lg hover:shadow-xl transition-all transform hover:scale-110 flex items-center justify-center z-50 ${
           isOpen ? 'scale-0' : 'scale-100'
         }`}
       >
@@ -91,11 +91,11 @@ export default function ChatBot() {
         {/* Header */}
         <div className="flex items-center justify-between p-4 border-b border-white/20">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full flex items-center justify-center">
+            <div className="w-10 h-10 bg-gradient-to-r from-#090B20-500 to-orange-600 rounded-full flex items-center justify-center">
               <Bot className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h3 className="text-white font-semibold">Bunny AI</h3>
+              <h3 className="text-white font-semibold">Bunny</h3>
               <p className="text-xs text-green-400">● Online</p>
             </div>
           </div>
@@ -117,7 +117,7 @@ export default function ChatBot() {
               <div className={`max-w-[280px] p-3 rounded-2xl ${
                 message.isBot
                   ? 'bg-white/10 text-white border border-white/20'
-                  : 'bg-gradient-to-r from-blue-600 to-purple-600 text-white'
+                  : 'bg-gradient-to-r from-blue-600 to-orange-600 text-white'
               }`}>
                 <p className="text-sm leading-relaxed">{message.text}</p>
                 <p className="text-xs opacity-70 mt-1">

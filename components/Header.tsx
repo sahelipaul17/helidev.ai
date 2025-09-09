@@ -34,22 +34,22 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+            <div className="w-10 h-10 bg-gradient-to-r from-#090B20-500 to-orange-600 rounded-lg flex items-center justify-center">
               <Bot className="w-6 h-6 text-white" />
             </div>
             <div>
               <h1 className="text-xl font-bold text-white">Helidev.ai</h1>
-              <p className="text-xs text-blue-300">AI Solutions</p>
+              <p className="text-xs text-white-300">AI Solutions</p>
             </div>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <a href="#home" className="text-white hover:text-blue-300 transition-colors">Home</a>
-            <a href="#services" className="text-white hover:text-blue-300 transition-colors">Services</a>
-            <a href="#about" className="text-white hover:text-blue-300 transition-colors">About</a>
-            <a href="#portfolio" className="text-white hover:text-blue-300 transition-colors">Portfolio</a>
-            <a href="#contact" className="text-white hover:text-blue-300 transition-colors">Contact</a>
+            <a href="#home" className="text-white hover:text-#090B20-300 transition-colors">Home</a>
+            <a href="#services" className="text-white hover:text-#090B20-300 transition-colors">Services</a>
+            <a href="#about" className="text-white hover:text-#090B20-300 transition-colors">About</a>
+            <a href="#portfolio" className="text-white hover:text-#090B20-300 transition-colors">Portfolio</a>
+            <a href="#contact" className="text-white hover:text-#090B20-300 transition-colors">Contact</a>
           </nav>
 
           {/* CTA Button */}
@@ -59,7 +59,7 @@ export default function Header() {
                 <span className="text-white">Welcome, {user.name}</span>
                 <button 
                   onClick={handleLogout}
-                  className="px-4 py-2 text-white hover:text-blue-300 transition-colors"
+                  className="px-4 py-2 text-white hover:text-#090B20-300 transition-colors"
                 >
                   Logout
                 </button>
@@ -67,7 +67,7 @@ export default function Header() {
             ) : (
               <button 
                 onClick={() => setIsAuthModalOpen(true)}
-                className="px-6 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-all transform hover:scale-105"
+                className="px-6 py-2 bg-gradient-to-r from-#090B20-600 to-orange-600 text-white rounded-lg font-medium hover:from-blue-700 hover:to-orange-700 transition-all transform hover:scale-105"
               >
                 Get Started
               </button>
@@ -105,7 +105,7 @@ export default function Header() {
               ) : (
                 <button 
                   onClick={() => setIsAuthModalOpen(true)}
-                  className="px-6 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-medium w-fit"
+                  className="px-6 py-2 bg-gradient-to-r from-blue-600 to-orange-600 text-white rounded-lg font-medium w-fit"
                 >
                   Get Started
                 </button>
